@@ -1,0 +1,17 @@
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\bin\Debug\awwBreak.exe.config
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\bin\Debug\awwBreak.exe
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\bin\Debug\awwBreak.pdb
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\obj\Debug\awwBreak.Form1.resources
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\obj\Debug\awwBreak.Properties.Resources.resources
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\obj\Debug\awwBreak.csproj.GenerateResource.Cache
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\obj\Debug\awwBreak.exe
+C:\Users\Shenghui\Desktop\works\NWHACKS\awwBreak\awwBreak\obj\Debug\awwBreak.pdb
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Debug\awwBreak.exe.config
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.exe
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.pdb
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.Form1.resources
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.Properties.Resources.resources
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Debug\awwBreak.exe
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Debug\awwBreak.pdb
