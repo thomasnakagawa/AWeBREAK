@@ -16,10 +16,11 @@ namespace awwBreak
         {
             InitializeComponent();
             this.Icon = awwBreak.Properties.Resources.Icon_Main;
-            this.WindowState = FormWindowState.Minimized;
-            this.ShowDialog();
-            this.WindowState = FormWindowState.Normal;
+            //this.WindowState = FormWindowState.Minimized;
             this.BringToFront();
+            this.WindowState = FormWindowState.Normal;
+            this.ShowDialog();
+
         }
 
         private void pictureBox2_MouseEnter(object sender, EventArgs e)
@@ -34,7 +35,7 @@ namespace awwBreak
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Dispose();
         }
     }
 }

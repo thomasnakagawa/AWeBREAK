@@ -339,5 +339,14 @@ namespace awwBreak.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string videoURLs {
+            get {
+                return ResourceManager.GetString("videoURLs", resourceCulture);
+            }
+        }
     }
 }

@@ -190,7 +190,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.LightGray;
+            this.textBox1.AcceptsReturn = true;
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(40)))), ((int)(((byte)(42)))));
+            this.textBox1.ForeColor = System.Drawing.Color.LightGray;
             this.textBox1.Location = new System.Drawing.Point(657, 447);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(113, 20);
@@ -198,6 +200,8 @@
             this.textBox1.Text = "Minutes";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.textBox1.Visible = false;
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // pictureBox1
             // 

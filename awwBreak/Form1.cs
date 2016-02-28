@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 
 using System.Runtime.InteropServices;
+using System.IO;
+using System.Reflection;
 
 namespace awwBreak
 {
@@ -45,6 +47,9 @@ namespace awwBreak
             rng = new Random();
             mode = Modes.Notification;
             updateSelection();
+
+            this.WindowState = FormWindowState.Normal;
+            this.BringToFront();
         }
         public void startWaiting()
         {
@@ -73,7 +78,7 @@ namespace awwBreak
             //minimize to system tray
             //TODO make it actually in the system tray
             //TODO fix the multiple icon thing
-            this.WindowState = FormWindowState.Minimized; //http://stackoverflow.com/questions/46918/whats-the-proper-way-to-minimize-to-tray-a-c-sharp-winforms-app
+            //this.WindowState = FormWindowState.Minimized; //http://stackoverflow.com/questions/46918/whats-the-proper-way-to-minimize-to-tray-a-c-sharp-winforms-app
             //https://msdn.microsoft.com/en-us/library/system.windows.forms.notifyicon(v=vs.110).aspx
             //https://msdn.microsoft.com/en-us/library/system.windows.controls.menuitem(v=vs.110).aspx
             this.Visible = false;
@@ -161,6 +166,7 @@ namespace awwBreak
                 pb.Image = new Bitmap(awwBreak.Properties.Resources.timer_custom_hover);
                 //setInfoBox();
             }
+            //Cursor.Current = Cursors.Hand;
 
         }
 
@@ -342,6 +348,7 @@ namespace awwBreak
             if (mode == Modes.Video)//in video mode, it should launch the web broswer to show a random video
             {
                 plainNotification("Time for a quick break!");
+                this.WindowState = FormWindowState.Minimized;
                 launchRandomWebpage();
             }
             else if (mode == Modes.Notification)//in plain notification mode, just notify with a box
@@ -355,6 +362,7 @@ namespace awwBreak
 
             this.Visible = true;
             this.ShowInTaskbar = true;
+            //this.WindowState = FormWindowState.Normal;
 
 
         }
@@ -494,5 +502,30 @@ namespace awwBreak
         {
             pictureBoxLaunch.Image = awwBreak.Properties.Resources.launchButton;
         }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+  
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) &&
+                (e.KeyChar != '.'))
+            {
+                    e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void textBox1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text.Equals("Minutes"))
+            {
+                textBox1.Clear();
+            }
+        }
+        
     }
 }
