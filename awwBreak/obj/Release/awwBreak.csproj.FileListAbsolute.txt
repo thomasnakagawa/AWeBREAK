@@ -7,3 +7,4 @@ C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\a
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.csproj.GenerateResource.Cache
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.exe
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.pdb
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.csprojResolveAssemblyReference.cache

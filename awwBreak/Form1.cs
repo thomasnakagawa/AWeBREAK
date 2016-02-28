@@ -40,9 +40,14 @@ namespace awwBreak
         private long secondsLeft;
         private long timerLength;
         private bool counting = false;
+        private Timer timer;
         public Form1()
         {
             InitializeComponent();
+            if (System.Windows.Forms.Application.OpenForms["AWe BREAK"] as Form1 != null)
+            {
+                this.Dispose();
+            }
             this.Icon = awwBreak.Properties.Resources.Icon_Main;
             rng = new Random();
             mode = Modes.Notification;
@@ -62,7 +67,7 @@ namespace awwBreak
             mode = getModeFromForm();
 
             //make and start the timer
-            Timer timer = new Timer();
+            timer = new Timer();
             timer.Interval = 1000;
             timer.Tick += new EventHandler(timerCallback);
             timer.Start();
@@ -103,6 +108,10 @@ namespace awwBreak
             });
 
             //the notify icon. It has the context menu
+            if (notifyIcon1 != null)
+            {
+                notifyIcon1.Dispose();
+            }
             notifyIcon1 = new NotifyIcon();
             notifyIcon1.ContextMenu = contextMenu1;
 
@@ -359,10 +368,11 @@ namespace awwBreak
             {
                 plainNotification("Hello world");
             }
-
+            timer.Dispose();
+            
             this.Visible = true;
             this.ShowInTaskbar = true;
-            //this.WindowState = FormWindowState.Normal;
+            this.WindowState = FormWindowState.Normal;
 
 
         }
@@ -382,7 +392,7 @@ namespace awwBreak
             Form2 frm = new Form2();
             //MessageBox.Show(msg);
             //frm.ShowDialog();
-            this.BringToFront();
+            //this.BringToFront();
         }
 
         public void showAbout()
@@ -408,7 +418,8 @@ namespace awwBreak
                     return 45 * 60;
                 case 3:
                     //10 sec
-                    return 10;
+                    double num = Double.Parse(textBox1.Text);
+                    return (long)Math.Round(num * 60);
 
             }
             return 12L;

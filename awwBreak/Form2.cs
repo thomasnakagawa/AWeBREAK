@@ -15,9 +15,13 @@ namespace awwBreak
         public Form2()
         {
             InitializeComponent();
+            if (System.Windows.Forms.Application.OpenForms["Form2"] as Form2 != null)
+            {
+                this.Dispose();
+            }
             this.Icon = awwBreak.Properties.Resources.Icon_Main;
             //this.WindowState = FormWindowState.Minimized;
-            this.BringToFront();
+            //this.BringToFront();
             this.WindowState = FormWindowState.Normal;
             this.ShowDialog();
 
