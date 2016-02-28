@@ -1,0 +1,9 @@
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Release\awwBreak.exe.config
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Release\awwBreak.exe
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Release\awwBreak.pdb
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.Form1.resources
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.Form2.resources
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.Properties.Resources.resources
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.exe
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Release\awwBreak.pdb
