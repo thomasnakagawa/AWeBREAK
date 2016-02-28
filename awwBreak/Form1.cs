@@ -41,6 +41,7 @@ namespace awwBreak
         public Form1()
         {
             InitializeComponent();
+            this.Icon = awwBreak.Properties.Resources.Icon_Main;
             rng = new Random();
             mode = Modes.Notification;
             updateSelection();
@@ -106,7 +107,7 @@ namespace awwBreak
             notifyIcon1.Visible = true;
             notifyIcon1.Click += new System.EventHandler(notifyIcon1_Click);
 
-            notifyIcon1.Icon = awwBreak.Properties.Resources.iconMain;
+            notifyIcon1.Icon = awwBreak.Properties.Resources.Icon_Main;
             notifyIcon1.ShowBalloonTip(1, "AWe BREAK", "Your timer has started. AWe BREAK is now accessable from the system tray.", ToolTipIcon.Info);
         }
 
@@ -336,7 +337,7 @@ namespace awwBreak
         {
             if (this.CanFocus)
             {
-                Control.Focus();
+                this.Focus();
             }
             if (mode == Modes.Video)//in video mode, it should launch the web broswer to show a random video
             {
@@ -370,7 +371,10 @@ namespace awwBreak
 
         public void plainNotification(String msg)
         {
-            MessageBox.Show(msg);
+            Form2 frm = new Form2();
+            //MessageBox.Show(msg);
+            //frm.ShowDialog();
+            this.BringToFront();
         }
 
         public void showAbout()

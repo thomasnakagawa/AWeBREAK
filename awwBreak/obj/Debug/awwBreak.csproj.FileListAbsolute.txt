@@ -15,3 +15,4 @@ C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\aww
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.csproj.GenerateResource.Cache
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Debug\awwBreak.exe
 C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\bin\Debug\awwBreak.pdb
+C:\Users\Thomas\Documents\self\NWHACKS2016\awwBreaksecond\awwBreak\obj\Debug\awwBreak.Form2.resources

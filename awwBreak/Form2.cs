@@ -15,6 +15,26 @@ namespace awwBreak
         public Form2()
         {
             InitializeComponent();
+            this.Icon = awwBreak.Properties.Resources.Icon_Main;
+            this.WindowState = FormWindowState.Minimized;
+            this.ShowDialog();
+            this.WindowState = FormWindowState.Normal;
+            this.BringToFront();
+        }
+
+        private void pictureBox2_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox2.Image = awwBreak.Properties.Resources.notificationBox_ok_hover;
+        }
+
+        private void pictureBox2_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox2.Image = awwBreak.Properties.Resources.notificationBox_ok;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -103,9 +103,9 @@ namespace awwBreak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon iconMain {
+        internal static System.Drawing.Icon Icon_Main {
             get {
-                object obj = ResourceManager.GetObject("iconMain", resourceCulture);
+                object obj = ResourceManager.GetObject("Icon_Main", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -206,6 +206,36 @@ namespace awwBreak.Properties {
         internal static System.Drawing.Bitmap mode_video_selected {
             get {
                 object obj = ResourceManager.GetObject("mode_video_selected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap notificationBox {
+            get {
+                object obj = ResourceManager.GetObject("notificationBox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap notificationBox_ok {
+            get {
+                object obj = ResourceManager.GetObject("notificationBox_ok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap notificationBox_ok_hover {
+            get {
+                object obj = ResourceManager.GetObject("notificationBox_ok_hover", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
