@@ -336,7 +336,7 @@ namespace awwBreak
         {
             if (this.CanFocus)
             {
-                this.Focus();
+                Control.Focus();
             }
             if (mode == Modes.Video)//in video mode, it should launch the web broswer to show a random video
             {
@@ -421,12 +421,6 @@ namespace awwBreak
             startWaiting();
         }
 
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -470,6 +464,31 @@ namespace awwBreak
         private void pictureBoxLaunch_ControlRemoved(object sender, ControlEventArgs e)
         {
 
+        }
+
+        private void pictureBox1_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox1.Image = awwBreak.Properties.Resources.infoBox;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox1.Image = awwBreak.Properties.Resources.logo_AWeBREAKS;
+        }
+
+        private void pictureBoxLaunch_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBoxLaunch.Image = awwBreak.Properties.Resources.launchButtonSelected;
+        }
+
+        private void pictureBoxLaunch_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBoxLaunch.Image = awwBreak.Properties.Resources.launchButton;
         }
     }
 }

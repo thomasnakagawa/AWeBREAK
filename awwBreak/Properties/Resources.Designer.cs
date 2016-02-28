@@ -63,16 +63,6 @@ namespace awwBreak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap choose_mode {
-            get {
-                object obj = ResourceManager.GetObject("choose_mode", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap choose_modeUPDATED {
             get {
                 object obj = ResourceManager.GetObject("choose_modeUPDATED", resourceCulture);
@@ -123,9 +113,39 @@ namespace awwBreak.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap infoBox {
+            get {
+                object obj = ResourceManager.GetObject("infoBox", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap launchButton {
             get {
                 object obj = ResourceManager.GetObject("launchButton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap launchButtonSelected {
+            get {
+                object obj = ResourceManager.GetObject("launchButtonSelected", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_AWeBREAKS {
+            get {
+                object obj = ResourceManager.GetObject("logo_AWeBREAKS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,16 +286,6 @@ namespace awwBreak.Properties {
         internal static System.Drawing.Bitmap time_custom_selected {
             get {
                 object obj = ResourceManager.GetObject("time_custom_selected", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap time_customUPDATE {
-            get {
-                object obj = ResourceManager.GetObject("time_customUPDATE", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

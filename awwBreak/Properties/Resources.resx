@@ -118,76 +118,79 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="choose_mode" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\choose_mode.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="choose_modeUPDATED" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\choose_modeupdated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="choose_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\choose_time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="description_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\description_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="description_video" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\description_video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\penguinthing_7uG_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="launchButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\launchbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mode_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\mode_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mode_default_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\mode_default_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mode_default_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\mode_default_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mode_vide0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\mode_vide0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mode_video_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\mode_video_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="mode_video_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\real images\mode_video_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="time20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="timer_custom_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\timer_custom_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="time_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="time_20_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\real images\time_20_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time_20_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_20_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="logo_AWeBREAKS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\logo_AWeBREAKS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="time_custom_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time_custom_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time_45_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_45_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="time_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time_10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mode_vide0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\mode_vide0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconMain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\penguinthing_7uG_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="description_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\description_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="choose_modeUPDATED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\choose_modeupdated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="time_45_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\real images\time_45_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="choose_time" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\choose_time.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mode_default_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\mode_default_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="description_video" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\description_video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="time_custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\real images\time_custom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time_customUPDATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_customupdate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mode_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\mode_default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="time_custom_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\real images\time_custom_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mode_video_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\mode_video_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\launchbutton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mode_default_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\mode_default_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="timer_custom_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\timer_custom_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time_45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_45_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time_45_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="time_20_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\time_20_selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infoBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\infobox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="launchButtonSelected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\real images\launchbuttonselected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
