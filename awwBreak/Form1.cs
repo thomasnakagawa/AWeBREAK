@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +22,7 @@ namespace awwBreak
 
         //TODO use a text file instead of hardcode
         String[] artisanURLs = new[]{
-		    "www.youtube.com/watch290fj02djfmq-ef/"
+		    "https://www.youtube.com/watch?, v=7jWYUtQZhK0","https://www.youtube.com/watch?v=UX0qLJWQcc0", "https://www.youtube.com/watch?v=mXHbj_1A1p4", "https://www.youtube.com/watch?v=dnn-4goA7j8", "https://www.youtube.com/watch?v=yltlJEdSAHw", "https://www.youtube.com/watch?v=L3MtFGWRXAA", "https://www.youtube.com/watch?v=oAtjf6Ijmtw", "https://www.youtube.com/watch?v=wCkerYMffMo", "https://www.youtube.com/watch?v=vqSJLYobwq4", "https://www.youtube.com/watch?v=ZpCl5O6tTv8"
 	    };
 
         int selectedTime = 1;
